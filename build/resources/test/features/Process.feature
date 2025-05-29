@@ -1,9 +1,9 @@
 # language: es
   #Autor Isabella
-Característica: Filtrado de productos después de eliminar un item del carrito
+Característica:Agregar un producto al carrito y eliminarlo
   Como usuario de saucedemo autenticado
-  Quiero poder filtrar productos de la Z a la A
-  Para ver el listado en orden descendente después de gestionar mi carrito
+  Quiero poder agregar productos y poderlos eliminar de mi carrito
+  Para comprobar que todo esta en orden
 
   Antecedentes:
     Dado que el usuario se encuentra en la pagina de inicio de sesion de Saucedemo
@@ -11,11 +11,8 @@ Característica: Filtrado de productos después de eliminar un item del carrito
       | username | password |
       |standard_user| secret_sauce |
 
-  @agregarProductosYfiltrar
-  Esquema del escenario: Agregar productos al carrito exitosamente
-    Cuando Selecciona el producto de la lista
-    Y lo agrega al carrito
-    Y navega al carrito para eliminar el producto escogido
-    Entonces Aplica el filtro "Name (Z to A)" y debera ver los productos ordenados de la Z a la A en la página principal
+  @AgregarYeliminar
+  Escenario: Agregar productos al carrito exitosamente
+    Cuando Selecciona el producto de la lista lo agrega al carrito navega al carrito para eliminar el producto escogido
+    Entonces el usuario podra visualizar el carrito vacio
 
-    Ejemplos:

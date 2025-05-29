@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Agregar un producto al carrito y eliminarlo" skipped="0" tests="1" time="32.05" timestamp="2025-05-27 10:24:34"><testcase name="Agregar productos al carrito exitosamente"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
+co.com.saucedemo.tasks.AbrirCart.performAs(AbrirCart.java:17)&#13;
+co.com.saucedemo.stepsdefinitions.ProcessStepsDefinitions.seleccionaElProductoDeLaListaLoAgregaAlCarritoNavegaAlCarritoParaEliminarElProductoEscogido(ProcessStepsDefinitions.java:14)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase></testsuite>

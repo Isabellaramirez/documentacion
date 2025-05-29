@@ -11,5 +11,5 @@ import org.junit.runner.RunWith;
         glue = {"co.com.saucedemo.stepsdefinitions", "co.com.saucedemo.utils.hooks"},
         snippets = SnippetType.CAMELCASE)
 public class ProcessRunner {
-}
+    }
 
